@@ -53,3 +53,9 @@ Congratulations! You won ₹50,000
 
 Output:
 Spam Message Detected
+
+Input:
+Hello
+
+Output:
+Normal Message
