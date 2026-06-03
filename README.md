@@ -19,8 +19,8 @@ This project is a simple machine learning-based text classifier that detects whe
 
 Train the model:
 
-python train.py
+py train.py
 
 Start the application:
 
-python app.py
+py app.py
