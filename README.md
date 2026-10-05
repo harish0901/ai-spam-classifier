@@ -1,61 +1,41 @@
-# AI Spam Classifier
+# 🤖 AI Spam Classifier
 
-## Overview
+A machine-learning based application that classifies text messages as **Spam** or **Not Spam**.
 
-This project is a simple AI-based text classifier built using Python and Scikit-learn. It classifies user-entered messages as either Spam or Not Spam.
+The project uses Python and Scikit-learn to train a machine-learning model on a labeled SMS dataset and predict whether a new message is spam.
 
-## Features
+---
 
-* Accepts user input
-* Processes text using Machine Learning
-* Predicts whether a message is spam or normal
-* Console-based interface
+## 🚀 Features
 
-## Technologies Used
+- 📩 Classifies messages as Spam or Not Spam
+- 🤖 Machine Learning based prediction
+- 🧹 Text preprocessing
+- 📊 Dataset-based model training
+- ⚡ Fast predictions
+- 🐍 Built with Python
 
-* Python
-* Pandas
-* Scikit-learn
-* Joblib
+---
 
-## Project Structure
+## 🛠️ Technologies Used
 
-ai-spam-classifier/
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Pandas | Data Processing |
+| Scikit-learn | Machine Learning |
+| TF-IDF | Text Feature Extraction |
+| Streamlit | User Interface |
 
-* train.py
-* app.py
-* spam.csv
-* model.pkl
-* vectorizer.pkl
-* README.md
-* requirements.txt
+---
 
-## Installation
+## 📂 Project Structure
 
-Install required packages:
-
-pip install pandas scikit-learn joblib
-
-## Run the Project
-
-Train the model:
-
-py train.py
-
-Run the classifier:
-
-py app.py
-
-## Example
-
-Input:
-Congratulations! You won ₹50,000
-
-Output:
-Spam Message Detected
-
-Input:
-Hello
-
-Output:
-Normal Message
+```text
+AI-Spam-Classifier/
+│
+├── train.py
+├── app.py
+├── requirements.txt
+├── spam.csv
+└── README.md
