@@ -1,10 +1,11 @@
 # 🤖 AI Spam Classifier
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?logo=pandas&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+
 A machine-learning based application that classifies text messages as **Spam** or **Not Spam**.
-
-The project uses Python and Scikit-learn to train a machine-learning model on a labeled SMS dataset and predict whether a new message is spam.
-
----
 
 ## 🚀 Features
 
