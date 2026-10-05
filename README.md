@@ -39,3 +39,47 @@ AI-Spam-Classifier/
 ├── requirements.txt
 ├── spam.csv
 └── README.md
+git clone https://github.com/harish0901/ai-spam-classifier.git
+cd ai-spam-classifier
+pip install -r requirements.txt
+python train.py
+streamlit run app.py
+User Message
+      ↓
+Text Preprocessing
+      ↓
+Feature Extraction
+      ↓
+Machine Learning Model
+      ↓
+Spam / Not Spam
+
+🔮 Future Improvements
+Improve model accuracy
+Add more training data
+Support multiple languages
+Add model performance visualization
+Deploy the application online
+👨‍💻 Author
+
+Harish
+
+Computer Science Developer | AI & Web Development Enthusiast
+
+⭐ If you find this project useful, consider giving it a star!
+
+
+---
+
+# 4. Important — check the Streamlit part
+
+Before committing, look at your actual `app.py`.
+
+If your application **doesn't use Streamlit**, don't include:
+
+```text
+Streamlit | User Interface
+
+and don't use:
+
+streamlit run app.py
